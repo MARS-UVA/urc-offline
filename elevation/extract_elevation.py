@@ -46,5 +46,6 @@ def extractElevation(GEOTIFF):
 
 
 
+
 if __name__ == "__main__":
     elevationCSV(TIFF, 'elevation.csv')
