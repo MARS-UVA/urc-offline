@@ -4,7 +4,7 @@ from pyproj import Transformer
 
 RESOLUTION_M = 5
 
-with rasterio.open('output_USGS1m.tif') as dataset, open('elevation.csv', 'w', newline='') as f:
+with rasterio.open('output_USGS1m_small.tif') as dataset, open('./elevation.csv', 'w', newline='') as f:
 
     print(dataset.crs)
     print(dataset.width, dataset.height)
