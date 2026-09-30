@@ -1,0 +1,23 @@
+# [project]
+# dynamic = ["version"]
+
+[project]
+name = "offline-urc-shi"
+
+version = "0.1.0"
+description = "python dependencies for everything"
+requires-python = "==3.12.*"
+dependencies = [
+  "astar",
+  "matplotlib",
+  "numpy",
+  "Pillow",
+  "pyproj",
+  "rasterio",
+  "requests",
+  "mink",
+]
+
+[project.optional-dependencies]
+
+# idk maybe other stuff
